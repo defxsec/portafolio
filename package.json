@@ -2,9 +2,9 @@
   "name": "mui",
   "version": "0.1.0",
   "private": true,
-  /*Añadismos un enlace */
+  "//Comentario" : "/*Añadismos un enlace */",
   "homepage": "http://defxsec.github.io/portafolio", 
-  /*Fin de comentario*/
+  "//Fin": "/*Fin de comentario*/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -16,10 +16,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    /*Añdimos los siguientes comandos para el despliegue*/
+    "//Comentario" : "/*Añdimos los siguientes comandos para el despliegue*/",
     "predeploy": "npm run build", 
-    "deply": "gh-pages -d build",
-    /*Fin del despliegue*/
+    "deploy": "gh-pages -d build",
+    "//Fin": "/*Fin de comentario*/",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
